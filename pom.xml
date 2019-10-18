@@ -2,17 +2,17 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.univocity</groupId>
-	<artifactId>univocity-parsers</artifactId>
+	<groupId>ai.closedloop.com.univocity</groupId>
+	<artifactId>closedloop-univocity-parsers</artifactId>
 	<version>2.7.3</version>
-	<name>univocity-parsers</name>
+	<name>closedloop-univocity-parsers</name>
 	<packaging>jar</packaging>
-	<description>univocity's open source parsers for processing different text formats using a consistent API</description>
-	<url>http://github.com/univocity/univocity-parsers</url>
+	<description>modified to support escaped delimiters as found in Redshifts default export format</description>
+	<url>http://github.com/thadeusb/univocity-parsers</url>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/univocity/univocity-parsers/issues</url>
+		<url>https://github.com/thadeusb/univocity-parsers/issues</url>
 	</issueManagement>
 
 	<organization>
@@ -30,9 +30,9 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/univocity/univocity-parsers</url>
-		<connection>scm:git:git://github.com/univocity/univocity-parsers.git</connection>
-		<developerConnection>scm:git:git@github.com:univocity/univocity-parsers.git</developerConnection>
+		<url>https://github.com/thadeusb/univocity-parsers</url>
+		<connection>scm:git:git://github.com/thadeusb/univocity-parsers.git</connection>
+		<developerConnection>scm:git:git@github.com:thadeusb/univocity-parsers.git</developerConnection>
 	</scm>
 
 	<developers>
